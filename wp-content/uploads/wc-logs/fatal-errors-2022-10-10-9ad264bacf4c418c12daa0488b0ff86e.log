@@ -1,0 +1,57 @@
+2022-10-10T13:12:42+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in G:\laragon\www\promatex\wp-includes\class-wp-query.php:2114
+Stack trace:
+#0 G:\laragon\www\promatex\wp-includes\class-wp-query.php(2114): array_map('absint', 25)
+#1 G:\laragon\www\promatex\wp-includes\class-wp-query.php(3586): WP_Query->get_posts()
+#2 G:\laragon\www\promatex\wp-includes\class-wp-query.php(3718): WP_Query->query(Array)
+#3 G:\laragon\www\promatex\wp-content\themes\promatex\page-home.php(83): WP_Query->__construct(Array)
+#4 G:\laragon\www\promatex\wp-includes\template-loader.php(106): include('G:\\laragon\\www\\...')
+#5 G:\laragon\www\promatex\wp-blog-header.php(19): require_once('G:\\laragon\\www\\...')
+#6 G:\laragon\www\promatex\index.php(17): require('G:\\laragon\\www\\...')
+#7 {main}
+  thrown in G:\laragon\www\promatex\wp-includes\class-wp-query.php on line 2114
+
+2022-10-10T13:13:06+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in G:\laragon\www\promatex\wp-includes\class-wp-query.php:2114
+Stack trace:
+#0 G:\laragon\www\promatex\wp-includes\class-wp-query.php(2114): array_map('absint', 25)
+#1 G:\laragon\www\promatex\wp-includes\class-wp-query.php(3586): WP_Query->get_posts()
+#2 G:\laragon\www\promatex\wp-includes\class-wp-query.php(3718): WP_Query->query(Array)
+#3 G:\laragon\www\promatex\wp-content\themes\promatex\page-home.php(83): WP_Query->__construct(Array)
+#4 G:\laragon\www\promatex\wp-includes\template-loader.php(106): include('G:\\laragon\\www\\...')
+#5 G:\laragon\www\promatex\wp-blog-header.php(19): require_once('G:\\laragon\\www\\...')
+#6 G:\laragon\www\promatex\index.php(17): require('G:\\laragon\\www\\...')
+#7 {main}
+  thrown in G:\laragon\www\promatex\wp-includes\class-wp-query.php on line 2114
+
+2022-10-10T13:15:12+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in G:\laragon\www\promatex\wp-includes\class-wp-query.php:2114
+Stack trace:
+#0 G:\laragon\www\promatex\wp-includes\class-wp-query.php(2114): array_map('absint', 25)
+#1 G:\laragon\www\promatex\wp-includes\class-wp-query.php(3586): WP_Query->get_posts()
+#2 G:\laragon\www\promatex\wp-includes\class-wp-query.php(3718): WP_Query->query(Array)
+#3 G:\laragon\www\promatex\wp-content\themes\promatex\page-home.php(82): WP_Query->__construct(Array)
+#4 G:\laragon\www\promatex\wp-includes\template-loader.php(106): include('G:\\laragon\\www\\...')
+#5 G:\laragon\www\promatex\wp-blog-header.php(19): require_once('G:\\laragon\\www\\...')
+#6 G:\laragon\www\promatex\index.php(17): require('G:\\laragon\\www\\...')
+#7 {main}
+  thrown in G:\laragon\www\promatex\wp-includes\class-wp-query.php on line 2114
+
+2022-10-10T13:16:19+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in G:\laragon\www\promatex\wp-includes\class-wp-query.php:2114
+Stack trace:
+#0 G:\laragon\www\promatex\wp-includes\class-wp-query.php(2114): array_map('absint', 25)
+#1 G:\laragon\www\promatex\wp-includes\class-wp-query.php(3586): WP_Query->get_posts()
+#2 G:\laragon\www\promatex\wp-includes\class-wp-query.php(3718): WP_Query->query(Array)
+#3 G:\laragon\www\promatex\wp-content\themes\promatex\page-home.php(83): WP_Query->__construct(Array)
+#4 G:\laragon\www\promatex\wp-includes\template-loader.php(106): include('G:\\laragon\\www\\...')
+#5 G:\laragon\www\promatex\wp-blog-header.php(19): require_once('G:\\laragon\\www\\...')
+#6 G:\laragon\www\promatex\index.php(17): require('G:\\laragon\\www\\...')
+#7 {main}
+  thrown in G:\laragon\www\promatex\wp-includes\class-wp-query.php on line 2114
+
+2022-10-10T13:51:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function the_field(), 0 passed in G:\laragon\www\promatex\wp-content\themes\promatex\page-home.php on line 98 and at least 1 expected in G:\laragon\www\promatex\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:70
+Stack trace:
+#0 G:\laragon\www\promatex\wp-content\themes\promatex\page-home.php(98): the_field()
+#1 G:\laragon\www\promatex\wp-includes\template-loader.php(106): include('G:\\laragon\\www\\...')
+#2 G:\laragon\www\promatex\wp-blog-header.php(19): require_once('G:\\laragon\\www\\...')
+#3 G:\laragon\www\promatex\index.php(17): require('G:\\laragon\\www\\...')
+#4 {main}
+  thrown in G:\laragon\www\promatex\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php on line 70
+
